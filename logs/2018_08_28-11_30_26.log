@@ -1,7 +1,0 @@
-[2018-08-28 11:30:27] DEBUG [libs.Utility:27] List of devices attached
-
-[2018-08-28 11:30:27] DEBUG [libs.Utility:27] 
-
-[2018-08-28 11:31:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
-[2018-08-28 11:31:32] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
-[2018-08-28 11:31:32] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:

@@ -1,0 +1,15 @@
+[2018-09-04 11:43:18] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 11:43:18] DEBUG [libs.Utility:28] 
+
+[2018-09-04 11:43:19] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 11:43:19] DEBUG [libs.ThreadManager:94] STARTED   |                                         __refresh
+[2018-09-04 11:43:19] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 11:43:19] DEBUG [libs.Utility:28] 
+
+[2018-09-04 11:43:20] DEBUG [libs.Utility:38] 8f69c4ae	fastboot
+
+[2018-09-04 11:43:24] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 11:43:24] DEBUG [libs.ThreadManager:45] DONE      |                                         __refresh
+[2018-09-04 11:43:24] DEBUG [libs.ThreadManager:94] STARTED   |                                  Upgrade:8f69c4ae

@@ -1,0 +1,10 @@
+[2018-08-10 10:05:03] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:03] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:16] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:16] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:17] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:17] DEBUG [libs.Utility:27] 
+

@@ -1,0 +1,18 @@
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] 
+
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 16:06:00] DEBUG [libs.Utility:27] 
+
+[2018-08-31 16:06:01] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 16:06:01] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 16:06:01] DEBUG [libs.Notebook.AR8020:263] check the AR 8020 state in device:8f69c4ae
+[2018-08-31 16:06:02] INFO [libs.Notebook.AR8020:313] root          4658     1   46264  31892 poll_schedule_timeout 775fe31558 S uart_log	>	pid:4658
+[2018-08-31 16:06:40] INFO [libs.Notebook.AR8020:313] root          4695     1   46264  31912 poll_schedule_timeout 7f54187558 S uart_log	>	pid:4695
+[2018-08-31 16:06:40] INFO [libs.Notebook.AR8020:313] root          4696  3704   46264  31884 poll_schedule_timeout 7e7b5b1558 S uart_log	>	pid:4696

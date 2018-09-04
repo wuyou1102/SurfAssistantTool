@@ -1,0 +1,47 @@
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] 
+
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:10] DEBUG [libs.Utility:28] 
+
+[2018-08-31 10:24:11] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 10:24:11] DEBUG [libs.ThreadManager:94] STARTED   |                                 __refresh_devices
+[2018-08-31 10:24:11] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:11] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:11] DEBUG [libs.Utility:28] 
+
+[2018-08-31 10:24:12] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 10:24:12] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-08-31 10:24:12] DEBUG [libs.ThreadManager:94] STARTED   |                                 __refresh_devices
+[2018-08-31 10:24:12] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:12] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:12] DEBUG [libs.Utility:28] 
+
+[2018-08-31 10:24:13] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 10:24:13] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-08-31 10:24:13] DEBUG [libs.ThreadManager:94] STARTED   |                                 __refresh_devices
+[2018-08-31 10:24:13] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:13] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:13] DEBUG [libs.Utility:28] 
+
+[2018-08-31 10:24:14] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 10:24:14] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-08-31 10:24:14] DEBUG [libs.ThreadManager:94] STARTED   |                                 __refresh_devices
+[2018-08-31 10:24:14] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-31 10:24:14] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-08-31 10:24:14] DEBUG [libs.Utility:28] 
+

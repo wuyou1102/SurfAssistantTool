@@ -1,0 +1,35 @@
+[2018-08-10 11:18:35] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 11:18:35] DEBUG [libs.Utility:27] 8f1bdd77	device
+
+[2018-08-10 11:18:35] DEBUG [libs.Utility:27] 8f69c4b1	device
+
+[2018-08-10 11:18:35] DEBUG [libs.Utility:27] 
+
+[2018-08-10 11:19:24] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:24] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:24] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:25] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:25] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:25] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:25] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:27] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:27] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:27] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-10 11:19:28] DEBUG [libs.Notebook.AR8020:131] check the AR 8020 state in device:

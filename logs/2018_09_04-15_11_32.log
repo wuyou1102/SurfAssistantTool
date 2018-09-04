@@ -1,0 +1,47 @@
+[2018-09-04 15:11:32] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 15:11:32] DEBUG [libs.Utility:28] 
+
+[2018-09-04 15:11:33] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 15:11:33] DEBUG [libs.Utility:28] 
+
+[2018-09-04 15:11:35] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 15:11:35] DEBUG [libs.ThreadManager:94] STARTED   |                                 __refresh_devices
+[2018-09-04 15:11:35] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 15:11:35] DEBUG [libs.Utility:28] 8f69c4b1	device
+
+[2018-09-04 15:11:35] DEBUG [libs.Utility:28] 
+
+[2018-09-04 15:11:35] DEBUG [libs.Notebook.AR8020:292] check the AR 8020 state in device:8f69c4b1
+[2018-09-04 15:11:35] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "cat /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:36] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "echo 0 > /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:36] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 15:11:36] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-09-04 15:11:36] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-09-04 15:11:36] DEBUG [libs.Notebook.AR8020:292] check the AR 8020 state in device:8f69c4b1
+[2018-09-04 15:11:36] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "cat /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:37] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "echo 1 > /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:37] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 15:11:37] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-09-04 15:11:37] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-09-04 15:11:37] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-09-04 15:11:37] DEBUG [libs.Notebook.AR8020:292] check the AR 8020 state in device:8f69c4b1
+[2018-09-04 15:11:37] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "cat /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:38] INFO [libs.Notebook.AR8020:350] root           824     1   46264  32052 0                   0 S uart_log	>	pid:824
+[2018-09-04 15:11:38] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "kill -2 824"
+[2018-09-04 15:11:43] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "echo 0 > /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:43] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 15:11:43] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-09-04 15:11:43] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-09-04 15:11:43] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-09-04 15:11:43] DEBUG [libs.Notebook.AR8020:292] check the AR 8020 state in device:8f69c4b1
+[2018-09-04 15:11:43] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "cat /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:44] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "echo 1 > /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"
+[2018-09-04 15:11:44] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 15:11:44] DEBUG [libs.ThreadManager:45] DONE      |                                 __refresh_devices
+[2018-09-04 15:11:44] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-09-04 15:11:44] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-09-04 15:11:44] DEBUG [libs.Notebook.AR8020:292] check the AR 8020 state in device:8f69c4b1
+[2018-09-04 15:11:44] INFO [libs.Utility:58] Run Command:C:\Users\OEMUSER\PycharmProjects\SurfAssistantTool\adb.exe -s 8f69c4b1 shell "cat /sys/bus/platform/drivers/artosyn_ar8020/soc:ar8020/enable"

@@ -1,0 +1,30 @@
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] 
+
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 15:47:17] DEBUG [libs.Utility:27] 
+
+[2018-08-31 15:47:18] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 15:47:18] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 15:47:18] DEBUG [libs.Notebook.AR8020:262] check the AR 8020 state in device:8f69c4ae
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          3573     1   46264  31920 poll_schedule_timeout 7011d87558 S uart_log	>	pid:3573
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4257  3704   46264  31884 poll_schedule_timeout 7d0bcea558 S uart_log	>	pid:4257
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4267  3704   46264  31884 poll_schedule_timeout 7d962f6558 S uart_log	>	pid:4267
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4278  3704   46264  31900 poll_schedule_timeout 7fb1039558 S uart_log	>	pid:4278
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4286  3704   46264  31884 poll_schedule_timeout 75f4b00558 S uart_log	>	pid:4286
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4294  3704   46264  31900 poll_schedule_timeout 7cb664e558 S uart_log	>	pid:4294
+[2018-08-31 15:47:19] INFO [libs.Notebook.AR8020:312] root          4416  3704   46264  31884 poll_schedule_timeout 7a133f6558 S uart_log	>	pid:4416
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          3573     1   46264  31920 poll_schedule_timeout 7011d87558 S uart_log	>	pid:3573
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4257  3704   46264  31884 poll_schedule_timeout 7d0bcea558 S uart_log	>	pid:4257
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4267  3704   46264  31884 poll_schedule_timeout 7d962f6558 S uart_log	>	pid:4267
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4278  3704   46264  31900 poll_schedule_timeout 7fb1039558 S uart_log	>	pid:4278
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4286  3704   46264  31884 poll_schedule_timeout 75f4b00558 S uart_log	>	pid:4286
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4294  3704   46264  31900 poll_schedule_timeout 7cb664e558 S uart_log	>	pid:4294
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4416  3704   46264  31884 poll_schedule_timeout 7a133f6558 S uart_log	>	pid:4416
+[2018-08-31 15:47:21] INFO [libs.Notebook.AR8020:312] root          4445  3704   46264  31900 poll_schedule_timeout 6ff7dea558 S uart_log	>	pid:4445

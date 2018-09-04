@@ -1,0 +1,28 @@
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] 
+
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-31 16:31:33] DEBUG [libs.Utility:27] 
+
+[2018-08-31 16:31:34] INFO [libs.Notebook.AR8020:360] root          5098     1   46264  31888 poll_schedule_timeout 7b4c67d558 S uart_log	>	pid:5098
+[2018-08-31 16:32:29] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 16:32:29] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 16:32:29] DEBUG [libs.Notebook.AR8020:305] check the AR 8020 state in device:
+[2018-08-31 16:32:30] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 16:32:30] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-08-31 16:32:30] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 16:32:30] DEBUG [libs.Notebook.AR8020:305] check the AR 8020 state in device:
+[2018-08-31 16:32:31] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 16:32:31] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-08-31 16:32:31] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 16:32:31] DEBUG [libs.Notebook.AR8020:305] check the AR 8020 state in device:
+[2018-08-31 16:32:39] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-31 16:32:39] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-08-31 16:32:39] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-31 16:32:39] DEBUG [libs.Notebook.AR8020:305] check the AR 8020 state in device:8f69c4ae

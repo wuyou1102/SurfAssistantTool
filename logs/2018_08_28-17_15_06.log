@@ -1,0 +1,15 @@
+[2018-08-28 17:15:07] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-28 17:15:07] DEBUG [libs.Utility:28] 
+
+[2018-08-28 17:15:07] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-08-28 17:15:07] DEBUG [libs.Utility:28] 
+
+[2018-08-28 17:15:08] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 17:15:08] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-28 17:15:08] DEBUG [libs.Notebook.AR8020:172] check the AR 8020 state in device:
+[2018-08-28 17:15:10] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 17:15:10] DEBUG [libs.ThreadManager:45] DONE      |                               __update_8020_state
+[2018-08-28 17:15:10] DEBUG [libs.ThreadManager:94] STARTED   |                               __update_8020_state
+[2018-08-28 17:15:10] DEBUG [libs.Notebook.AR8020:172] check the AR 8020 state in device:

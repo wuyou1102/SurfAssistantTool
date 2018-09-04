@@ -1,0 +1,29 @@
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] 
+
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] 8f69c4ae	device
+
+[2018-08-28 16:05:30] DEBUG [libs.Utility:27] 
+
+[2018-08-28 16:05:31] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:31] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:31] DEBUG [libs.ThreadManager:45] RUNNING   |                                 update_8020_state
+[2018-08-28 16:05:31] WARNING [libs.ThreadManager:84] 10001
+[2018-08-28 16:05:31] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-28 16:05:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:32] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-28 16:05:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:32] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-28 16:05:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                 update_8020_state
+[2018-08-28 16:05:32] WARNING [libs.ThreadManager:84] 10001
+[2018-08-28 16:05:35] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:35] DEBUG [libs.ThreadManager:45] DONE      |                                 update_8020_state
+[2018-08-28 16:05:35] DEBUG [libs.ThreadManager:94] STARTED   |                                 update_8020_state
+[2018-08-28 16:05:35] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 16:05:35] DEBUG [libs.ThreadManager:45] RUNNING   |                                 update_8020_state
+[2018-08-28 16:05:35] WARNING [libs.ThreadManager:84] 10001

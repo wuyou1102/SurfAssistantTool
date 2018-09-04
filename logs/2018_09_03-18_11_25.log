@@ -1,0 +1,39 @@
+[2018-09-03 18:11:25] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-03 18:11:25] DEBUG [libs.Utility:28] 
+
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:5
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:5
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:6
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:6
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:5
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:7
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:7
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:6
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:5
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:8
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:8
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:3
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:7
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:6
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:5
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:45] RUNNING   |                                         Upgrade:4
+[2018-09-03 18:11:32] DEBUG [libs.ThreadManager:94] STARTED   |                                         Upgrade:9

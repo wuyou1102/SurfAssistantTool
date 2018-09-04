@@ -1,0 +1,17 @@
+[2018-09-04 12:04:12] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 12:04:12] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-09-04 12:04:12] DEBUG [libs.Utility:28] 
+
+[2018-09-04 12:04:16] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 12:04:16] DEBUG [libs.ThreadManager:94] STARTED   |                                         __refresh
+[2018-09-04 12:04:16] DEBUG [libs.Utility:28] List of devices attached
+
+[2018-09-04 12:04:16] DEBUG [libs.Utility:28] 8f69c4ae	device
+
+[2018-09-04 12:04:16] DEBUG [libs.Utility:28] 
+
+[2018-09-04 12:04:23] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-09-04 12:04:23] DEBUG [libs.ThreadManager:45] DONE      |                                         __refresh
+[2018-09-04 12:04:23] DEBUG [libs.ThreadManager:94] STARTED   |                                  Upgrade:8f69c4ae

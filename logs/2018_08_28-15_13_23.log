@@ -1,0 +1,66 @@
+[2018-08-28 15:13:23] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:13:23] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:43] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:43] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:43] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:43] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:44] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:44] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:44] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:44] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:44] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:45] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:45] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:45] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:45] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:45] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:46] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:46] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:46] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:46] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:46] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:47] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:47] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:47] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:47] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:47] DEBUG [libs.Utility:27] 
+
+[2018-08-28 15:14:48] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-28 15:14:48] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-28 15:14:49] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-28 15:14:49] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-28 15:14:49] DEBUG [libs.Utility:27] 
+

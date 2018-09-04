@@ -1,0 +1,45 @@
+[2018-08-10 10:05:52] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:52] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:56] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:56] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:56] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:56] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:57] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:57] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-10 10:05:57] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:57] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:57] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:58] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:58] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-10 10:05:58] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:58] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:58] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:05:59] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:05:59] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-10 10:05:59] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:05:59] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:05:59] DEBUG [libs.Utility:27] 
+
+[2018-08-10 10:06:33] DEBUG [libs.ThreadManager:43] STATE     |                                              NAME
+[2018-08-10 10:06:33] DEBUG [libs.ThreadManager:45] DONE      |                                           refresh
+[2018-08-10 10:06:33] DEBUG [libs.ThreadManager:94] STARTED   |                                           refresh
+[2018-08-10 10:06:33] DEBUG [libs.Utility:27] List of devices attached
+
+[2018-08-10 10:06:33] DEBUG [libs.Utility:27] 
+

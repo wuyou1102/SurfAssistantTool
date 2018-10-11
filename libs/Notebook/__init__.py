@@ -1,5 +1,5 @@
 # -*- encoding:UTF-8 -*-
 from AR8020 import AR8020
-from SDM660 import SDM660
+from SDM660_Upgrade import AndroidUpgrade
 
-DISPLAY_PANEL = [SDM660, AR8020]
+DISPLAY_PANEL = [AndroidUpgrade, AR8020]

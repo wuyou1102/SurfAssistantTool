@@ -12,7 +12,7 @@ class Frame(wx.Frame):
         wx.Frame.__init__(self, None, id=999, title="Surf Assistant Tool", size=(800, 600))
         self.Center()
         notebook = wx.Notebook(self)
-        self.sdm_660 = Notebook.SDM660(parent=notebook)
+        self.sdm_660 = Notebook.AndroidUpgrade(parent=notebook)
         self.ar_8020 = Notebook.AR8020(parent=notebook)
 
         notebook.AddPage(self.sdm_660, self.sdm_660.name)

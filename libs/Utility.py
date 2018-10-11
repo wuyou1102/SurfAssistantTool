@@ -6,8 +6,14 @@ import ADB_Command as Adb
 import FastbootCommand as fastboot
 from ThreadManager import append_work, is_alive
 import re
+import time
 
 __log = logging.getLogger(__name__)
+
+
+def get_timestamp(time_fmt='%Y_%m_%d-%H_%M_%S', t=None):
+    t = t if t else time.time()
+    return time.strftime(time_fmt, time.localtime(t))
 
 
 def makedirs(path, *paths):

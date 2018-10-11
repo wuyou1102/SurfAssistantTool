@@ -106,12 +106,16 @@ class AR8020(wx.Panel):
             linkid = wx.Button(self, wx.ID_ANY, u"LinkID", wx.DefaultPosition, wx.DefaultSize, 0)
             sn = wx.Button(self, wx.ID_ANY, u"SN", wx.DefaultPosition, wx.DefaultSize, 0)
             uid = wx.Button(self, wx.ID_ANY, u"UID", wx.DefaultPosition, wx.DefaultSize, 0)
+            rc = wx.Button(self, wx.ID_ANY, u"RC Info", wx.DefaultPosition, wx.DefaultSize, 0)
+            save.Bind(wx.EVT_BUTTON, self.on_save)
+            clear.Bind(wx.EVT_BUTTON, self.on_clear)
             connect.Bind(wx.EVT_BUTTON, self.on_connect)
             disconnect.Bind(wx.EVT_BUTTON, self.on_disconnect)
             chipid.Bind(wx.EVT_BUTTON, self.on_chip_id)
             linkid.Bind(wx.EVT_BUTTON, self.on_link_id)
             sn.Bind(wx.EVT_BUTTON, self.on_sn)
             uid.Bind(wx.EVT_BUTTON, self.on_uid)
+            rc.Bind(wx.EVT_BUTTON, self.get_rc_info)
             button_sizer.Add(connect, 0, wx.ALL, 0)
             button_sizer.Add(disconnect, 0, wx.ALL, 0)
             button_sizer.Add(save, 0, wx.ALL, 0)
@@ -120,6 +124,7 @@ class AR8020(wx.Panel):
             button_sizer.Add(linkid, 0, wx.ALL, 0)
             button_sizer.Add(sn, 0, wx.ALL, 0)
             button_sizer.Add(uid, 0, wx.ALL, 0)
+            button_sizer.Add(rc, 0, wx.ALL, 0)
             return button_sizer
 
         sizer = wx.StaticBoxSizer(wx.StaticBox(self, wx.ID_ANY, u"日志"), wx.HORIZONTAL)
@@ -129,6 +134,23 @@ class AR8020(wx.Panel):
         sizer.Add(self.output_tc, 1, wx.EXPAND | wx.ALL, 0)
         sizer.Add(m_button_sizer, 0, wx.EXPAND | wx.LEFT, 5)
         return sizer
+
+    def on_save(self, event):
+        dlg = wx.FileDialog(
+            self,
+            message="Save Data:",
+            defaultDir=os.getcwd(),
+            defaultFile="UartLog_%s.txt" % Utility.get_timestamp(time_fmt="%Y%m%d-%H%M%S"),
+            wildcard="Text (*.txt)|*.txt",
+            style=wx.FD_SAVE)
+        if dlg.ShowModal() == wx.ID_OK:
+            with open(dlg.GetPath(), 'w') as wfile:
+                wfile.write(self.output_tc.GetValue())
+            return True
+        return False
+
+    def on_clear(self, event):
+        self.output_tc.Clear()
 
     def on_open(self, event):
         self.open_ar8020(self.get_device_selection())
@@ -198,6 +220,10 @@ class AR8020(wx.Panel):
         else:
             self.alert_error("请先打开uart log。")
 
+    def get_rc_info(self, event):
+        if self.uart_log and self.uart_log.poll():
+            self.uart_log.write('RC')
+
     def on_disconnect(self, event):
         self.__disconnect()
 
@@ -231,7 +257,6 @@ class AR8020(wx.Panel):
         self.state_st.Refresh()
 
     def __upgrade(self):
-
         bin_file = self.fpc.GetPath()
         if bin_file and os.path.exists(bin_file):
             self.lb_devices.Disable()
@@ -285,11 +310,6 @@ class AR8020(wx.Panel):
     def close_ar8020(self, serial):
         self.__switch_on_off_ar8020(serial=serial, on=False)
         self.update_8020_state()
-
-    @staticmethod
-    def stop_background_uart_log(serial):
-
-        Utility.run_cmd(Adb.shell_command(cmd="stop uart_log", serial=serial))
 
     @staticmethod
     def is_ar8020_open(serial):
@@ -346,7 +366,7 @@ class UartLog(threading.Thread):
         return self.serial
 
     def stop_exist_uart_log(self):
-        result = os.popen(Adb.shell_command(cmd="stop uart_log", serial=self.serial)).read()
+        self.stop_background_uart_log(self.serial)
         output = os.popen(Adb.shell_command(cmd="ps -A |grep uart_log", serial=self.serial)).read()
         for line in output.split('\n'):
             if not line:
@@ -366,12 +386,17 @@ class UartLog(threading.Thread):
                 break
             line = self.session.stdout.readline().strip('\r\n')
             if line:
-                wx.CallAfter(self.output.AppendText, line + '\n')
+                wx.CallAfter(self.output.AppendText,
+                             '{time} :  {line}\n'.format(time=Utility.get_timestamp("%H_%M_%S"), line=line))
         wx.CallAfter(self.output.AppendText, u"已关闭设备：<%s>的UART LOG\n" % self.serial)
 
     def clear_uart_log(self):
         self.session.kill()
         self.session.terminate()
+
+    @staticmethod
+    def stop_background_uart_log(serial):
+        Utility.run_cmd(Adb.shell_command(cmd="stop uart_log", serial=serial))
 
 
 if __name__ == '__main__':

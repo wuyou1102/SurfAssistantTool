@@ -11,10 +11,10 @@ import logging
 log = logging.getLogger(__name__)
 
 
-class SDM660(wx.Panel):
+class AndroidUpgrade(wx.Panel):
     def __init__(self, parent):
-        self.name = "SDM660"
-        self.upgrade_list = list()
+        self.name = u"Android升级"
+        self.upgradey_list = list()
         wx.Panel.__init__(self, parent, id=wx.ID_ANY, pos=wx.DefaultPosition, size=wx.DefaultSize,
                           style=wx.TAB_TRAVERSAL)
         MainSizer = wx.BoxSizer(wx.HORIZONTAL)

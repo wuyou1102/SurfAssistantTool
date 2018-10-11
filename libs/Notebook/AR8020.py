@@ -10,7 +10,8 @@ import re
 import threading
 import subprocess
 
-pattern = re.compile(r'currtnt frame = (\d+)-----total frame = (\d+)\r\n')
+# pattern = re.compile(r'currtnt frame = (\d+)-----total frame = (\d+)\r\n')
+pattern = re.compile(r'progress : (\d+) / (\d+)\r\n')
 
 log = logging.getLogger(__name__)
 
@@ -245,26 +246,29 @@ class AR8020(wx.Panel):
                 while True:
                     data = p.stdout.readline()  # block/wait
                     log.debug(repr(data))
-                    if "get file size" in data:
+                    if "progress" in data:
+                        cur, total = Utility.find_in_string(pattern=pattern, string=data)
+                        cur, total = float(cur), int(total)
+                        self.upgarde_gauge.SetValue(cur / total * 1000)
                         self.state_st.SetLabel(u"升级中...")
+                        time.sleep(0.01)
+                        continue
+                    elif "get version err" in data:
+                        self.alert_error("Get Version Error")
+                        break
                     elif "upgrade successed" in data:
                         self.state_st.SetLabel(u"升级完成，正在重启。")
                         self.close_ar8020(serial=device)
                         time.sleep(1)
                         self.open_ar8020(serial=device)
                         break
-                    else:
-                        cur, total = Utility.find_in_string(pattern=pattern, string=data)
-                        cur, total = float(cur), int(total)
-                        self.upgarde_gauge.SetValue(cur / total * 1000)
-                    time.sleep(0.01)
             except Exception, e:
                 self.state_st.SetLabel(u"升级失败")
-                self.alert_error(e.message)
-
+                self.alert_error('{error}\n{data}'.format(error=e.message, data=repr(data)))
             finally:
                 self.lb_devices.Enable()
                 self.upgrade_button.Enable()
+                p.kill()
         else:
             self.alert_error(u"没有找到升级文件。")
 
@@ -342,6 +346,7 @@ class UartLog(threading.Thread):
         return self.serial
 
     def stop_exist_uart_log(self):
+        result = os.popen(Adb.shell_command(cmd="stop uart_log", serial=self.serial)).read()
         output = os.popen(Adb.shell_command(cmd="ps -A |grep uart_log", serial=self.serial)).read()
         for line in output.split('\n'):
             if not line:

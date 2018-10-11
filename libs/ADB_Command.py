@@ -10,18 +10,18 @@ __adb = os.path.join(os.path.abspath(os.path.dirname(sys.argv[0])),
 
 def pull(remote, local, serial=''):
     if serial:
-        return '{adb} -s {serial} pull {remote} {local}'.format(adb=__adb,
+        return '{adb} -s {serial} pull \"{remote}\" \"{local}\"'.format(adb=__adb,
                                                                 serial=serial,
                                                                 remote=remote, local=local)
-    return '{adb} pull {remote} {local}'.format(adb=__adb, remote=remote, local=local)
+    return '{adb} pull \"{remote}\" \"{local}\"'.format(adb=__adb, remote=remote, local=local)
 
 
 def push(local, remote, serial=''):
     if serial:
-        return '{adb} -s {serial} push {local} {remote}'.format(adb=__adb,
+        return '{adb} -s {serial} push \"{local}\" \"{remote}\"'.format(adb=__adb,
                                                                 serial=serial,
                                                                 remote=remote, local=local)
-    return '{adb} push {local} {remote}'.format(adb=__adb, remote=remote, local=local)
+    return '{adb} push \"{local}\" \"{remote}\"'.format(adb=__adb, remote=remote, local=local)
 
 
 def reboot(serial='', mode=''):

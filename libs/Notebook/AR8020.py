@@ -44,7 +44,7 @@ class AR8020(wx.Panel):
         RightSizer.Add(upgrade_sizer, 0, wx.EXPAND | wx.ALL, 0)
         RightSizer.Add(log_sizer, 1, wx.EXPAND | wx.ALL, 0)
         MainSizer.Add(LeftSizer, 1, wx.EXPAND | wx.ALL, 1)
-        MainSizer.Add(RightSizer, 3, wx.EXPAND | wx.ALL, 1)
+        MainSizer.Add(RightSizer, 4, wx.EXPAND | wx.ALL, 1)
         self.uart_log = None
         self.SetSizer(MainSizer)
         self.Layout()

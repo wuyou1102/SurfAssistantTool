@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 class AndroidUpgrade(wx.Panel):
     def __init__(self, parent):
         self.name = u"Android升级"
-        self.upgradey_list = list()
+        self.upgrade_list = list()
         wx.Panel.__init__(self, parent, id=wx.ID_ANY, pos=wx.DefaultPosition, size=wx.DefaultSize,
                           style=wx.TAB_TRAVERSAL)
         MainSizer = wx.BoxSizer(wx.HORIZONTAL)
@@ -28,7 +28,7 @@ class AndroidUpgrade(wx.Panel):
         RightSizer.Add(self.upgrade_info_sizer, 1, wx.EXPAND | wx.ALL, 0)
 
         MainSizer.Add(LeftSizer, 1, wx.EXPAND | wx.ALL, 1)
-        MainSizer.Add(RightSizer, 3, wx.EXPAND | wx.ALL, 1)
+        MainSizer.Add(RightSizer, 4, wx.EXPAND | wx.ALL, 1)
 
         self.SetSizer(MainSizer)
         self.Layout()

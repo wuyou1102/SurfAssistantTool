@@ -198,8 +198,10 @@ class UpgradeDevice(object):
         if not self.check_file():
             return False
         self.reboot_to_fastboot()
-        self.flash_image_files()
-        self.reboot_to_normal()
+        if self.flash_image_files():
+            self.reboot_to_normal()
+        else:
+            pass
 
     def flash_image_files(self):
         count = 0

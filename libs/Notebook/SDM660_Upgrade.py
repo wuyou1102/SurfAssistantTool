@@ -230,7 +230,7 @@ class UpgradeDevice(object):
 
     def judge_result(self, partition, output):
         print repr(output)
-        if '\nOKAY' in output and "\nFAILED" not in output:
+        if 'OKAY' in output and "FAILED" not in output:
             return True
         else:
             if partition in ['PrimaryGPT', 'BackupGPT']:
